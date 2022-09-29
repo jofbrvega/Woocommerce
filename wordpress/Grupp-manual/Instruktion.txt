@@ -8,7 +8,7 @@ Lösenord: admin
 - GLÖM INTE ATT ÄNDRA I wp-config så att ni kan nå era databaser (då vi alla har olika localhost/username/password)
 
 /* GITHUB */ 
-https://github.com/jofbrvega/Woocommerce.git
+https://github.com/jofbrvega/Woocommerce/tree/main/wordpress
 
 /* HEMSIDA */ 
 - Språk: Svenska
