@@ -2,3 +2,43 @@
 
 2022-10-03T08:59:25+00:00 CRITICAL syntax error, unexpected ',' in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/template-parts/blocks/header-single-category.php on line 4
 
+2022-10-03T10:36:09+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_cat_name(), 0 passed in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/template-parts/header/header-standard.php on line 10 and exactly 1 expected in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-includes/category.php:223
+Stack trace:
+#0 /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/template-parts/header/header-standard.php(10): get_cat_name()
+#1 /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-includes/template.php(772): require('/Users/johannav...')
+#2 /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-includes/template.php(716): load_template('/Users/johannav...', false, Array)
+#3 /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#4 /Users/johann in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-includes/category.php on line 223
+
+2022-10-03T10:36:12+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_cat_name(), 0 passed in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/template-parts/header/header-standard.php on line 10 and exactly 1 expected in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-includes/category.php:223
+Stack trace:
+#0 /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/template-parts/header/header-standard.php(10): get_cat_name()
+#1 /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-includes/template.php(772): require('/Users/johannav...')
+#2 /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-includes/template.php(716): load_template('/Users/johannav...', false, Array)
+#3 /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#4 /Users/johann in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-includes/category.php on line 223
+
+2022-10-03T10:36:45+00:00 CRITICAL Cannot redeclare get_cat_name() (previously declared in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-includes/category.php:223) in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/functions.php on line 35
+
+2022-10-03T10:37:07+00:00 CRITICAL Cannot redeclare get_cat_name() (previously declared in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-includes/category.php:223) in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/functions.php on line 9
+
+2022-10-03T10:37:38+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_catname(), 0 passed in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/template-parts/header/header-standard.php on line 10 and exactly 1 expected in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-includes/deprecated.php:1254
+Stack trace:
+#0 /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/template-parts/header/header-standard.php(10): get_catname()
+#1 /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-includes/template.php(772): require('/Users/johannav...')
+#2 /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-includes/template.php(716): load_template('/Users/johannav...', false, Array)
+#3 /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#4 /Users/johan in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-includes/deprecated.php on line 1254
+
+2022-10-03T10:38:35+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_cat_name(), 0 passed in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/template-parts/header/header-standard.php on line 10 and exactly 1 expected in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-includes/category.php:223
+Stack trace:
+#0 /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/template-parts/header/header-standard.php(10): get_cat_name()
+#1 /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-includes/template.php(772): require('/Users/johannav...')
+#2 /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-includes/template.php(716): load_template('/Users/johannav...', false, Array)
+#3 /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#4 /Users/johann in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-includes/category.php on line 223
+
+2022-10-03T10:53:58+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/template-parts/blocks/header-single-category.php on line 3
+
+2022-10-03T10:57:43+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/searchpage.php on line 17
+
