@@ -103,3 +103,12 @@ do_action( 'woocommerce_after_main_content' );
 do_action( 'woocommerce_sidebar' );
 
 get_footer( 'shop' );
+
+add_filter('woocommerce_show_page_title', 'remove_category_title_from_product_archive');
+function remove_category_title_from_product_archive($title)
+{
+	if (!is_product_category()) {
+		$title = false;
+	}
+	return $title;
+}
