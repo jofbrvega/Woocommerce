@@ -1,0 +1,50 @@
+2022-10-02T10:23:37+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_category() in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/woocommerce.php:15
+Stack trace:
+#0 /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-includes/template-loader.php(106): include()
+#1 /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-blog-header.php(19): require_once('/Users/johannav...')
+#2 /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/index.php(17): require('/Users/johannav...')
+#3 {main}
+  thrown in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/woocommerce.php on line 15
+
+2022-10-02T10:33:51+00:00 CRITICAL syntax error, unexpected '?>' in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/woocommerce.php on line 21
+
+2022-10-02T15:13:12+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/index.php on line 29
+
+2022-10-02T15:13:23+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/index.php on line 29
+
+2022-10-02T15:13:25+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/index.php on line 29
+
+2022-10-02T15:34:54+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/woocommerce.php on line 19
+
+2022-10-02T15:59:51+00:00 CRITICAL syntax error, unexpected '?>' in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/page.php on line 6
+
+2022-10-02T16:05:45+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/functions.php on line 80
+
+2022-10-02T16:15:49+00:00 CRITICAL Uncaught Error: Call to undefined function wp_the_content() in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/page.php:15
+Stack trace:
+#0 /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-includes/template-loader.php(106): include()
+#1 /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-blog-header.php(19): require_once('/Users/johannav...')
+#2 /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/index.php(17): require('/Users/johannav...')
+#3 {main}
+  thrown in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/page.php on line 15
+
+2022-10-02T16:17:54+00:00 CRITICAL syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/page.php on line 37
+
+2022-10-02T16:18:46+00:00 CRITICAL syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/page.php on line 39
+
+2022-10-02T16:19:33+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/page.php on line 26
+
+2022-10-02T16:19:39+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/page.php on line 26
+
+2022-10-02T16:20:04+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/page.php on line 26
+
+2022-10-02T16:23:14+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/page.php on line 26
+
+2022-10-02T16:24:49+00:00 CRITICAL syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/page.php on line 37
+
+2022-10-02T16:25:25+00:00 CRITICAL syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/page.php on line 37
+
+2022-10-02T16:32:31+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF) in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/page.php on line 26
+
+2022-10-02T16:40:22+00:00 CRITICAL syntax error, unexpected 'om' (T_STRING), expecting ')' in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/template-parts/blocks/block-vision.php on line 7
+

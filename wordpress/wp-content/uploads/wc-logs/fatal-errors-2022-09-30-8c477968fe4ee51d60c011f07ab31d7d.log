@@ -1,0 +1,22 @@
+2022-09-30T22:03:06+00:00 CRITICAL syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/functions.php on line 69
+
+2022-09-30T22:10:06+00:00 CRITICAL syntax error, unexpected 'limit' (T_STRING), expecting ']' in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/woocommerce.php on line 10
+
+2022-09-30T22:12:26+00:00 CRITICAL syntax error, unexpected 'limit' (T_STRING), expecting ']' in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/woocommerce.php on line 10
+
+2022-09-30T22:26:36+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_product_category() in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/woocommerce.php:7
+Stack trace:
+#0 /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-includes/template-loader.php(106): include()
+#1 /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-blog-header.php(19): require_once('/Users/johannav...')
+#2 /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/index.php(17): require('/Users/johannav...')
+#3 {main}
+  thrown in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/woocommerce.php on line 7
+
+2022-09-30T22:29:36+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/functions.php on line 106 and at least 2 expected in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-includes/plugin.php:400
+Stack trace:
+#0 /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/functions.php(106): add_action('woocommerce_bef...')
+#1 /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-settings.php(566): include('/Users/johannav...')
+#2 /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-config.php(96): require_once('/Users/johannav...')
+#3 /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-load.php(50): require_once('/Users/johannav...')
+#4 /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-blog-header.php(13): require_once('/User in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-includes/plugin.php on line 400
+

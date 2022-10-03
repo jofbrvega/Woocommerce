@@ -1,0 +1,4 @@
+2022-10-03T08:59:16+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/template-parts/blocks/header-single-category.php on line 3
+
+2022-10-03T08:59:25+00:00 CRITICAL syntax error, unexpected ',' in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/template-parts/blocks/header-single-category.php on line 4
+

@@ -2,3 +2,51 @@
 
 2022-09-29T07:36:50+00:00 CRITICAL syntax error, unexpected '<', expecting end of file in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/page.php on line 7
 
+2022-09-29T08:55:15+00:00 CRITICAL syntax error, unexpected '?>', expecting ')' in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/page.php on line 20
+
+2022-09-29T09:05:00+00:00 CRITICAL Uncaught Error: Call to undefined function wp_list_sor() in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/page.php:9
+Stack trace:
+#0 /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-includes/template-loader.php(106): include()
+#1 /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-blog-header.php(19): require_once('/Users/johannav...')
+#2 /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/index.php(17): require('/Users/johannav...')
+#3 {main}
+  thrown in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/page.php on line 9
+
+2022-09-29T09:05:07+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_list_sort(), 0 passed in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/page.php on line 9 and at least 1 expected in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-includes/functions.php:5201
+Stack trace:
+#0 /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/page.php(9): wp_list_sort()
+#1 /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-includes/template-loader.php(106): include('/Users/johannav...')
+#2 /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-blog-header.php(19): require_once('/Users/johannav...')
+#3 /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/index.php(17): require('/Users/johannav...')
+#4 {main}
+  thrown in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-includes/functions.php on line 5201
+
+2022-09-29T09:06:10+00:00 CRITICAL Cannot redeclare wp_list_sort() (previously declared in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-includes/functions.php:5201) in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/functions.php on line 72
+
+2022-09-29T09:06:40+00:00 CRITICAL Cannot redeclare wp_list_sort() (previously declared in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-includes/functions.php:5201) in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/functions.php on line 76
+
+2022-09-29T09:07:27+00:00 CRITICAL Cannot redeclare wp_list_sort() (previously declared in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-includes/functions.php:5201) in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/functions.php on line 73
+
+2022-09-29T09:07:29+00:00 CRITICAL Cannot redeclare wp_list_sort() (previously declared in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-includes/functions.php:5201) in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/functions.php on line 73
+
+2022-09-29T09:08:12+00:00 CRITICAL Cannot redeclare wp_list_sort() (previously declared in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-includes/functions.php:5201) in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/functions.php on line 71
+
+2022-09-29T09:08:59+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_list_sort(), 0 passed in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/page.php on line 9 and at least 1 expected in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-includes/functions.php:5201
+Stack trace:
+#0 /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/page.php(9): wp_list_sort()
+#1 /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-includes/template-loader.php(106): include('/Users/johannav...')
+#2 /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-blog-header.php(19): require_once('/Users/johannav...')
+#3 /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/index.php(17): require('/Users/johannav...')
+#4 {main}
+  thrown in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-includes/functions.php on line 5201
+
+2022-09-29T09:45:59+00:00 CRITICAL syntax error, unexpected '<', expecting end of file in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/page.php on line 5
+
+2022-09-29T10:11:07+00:00 CRITICAL syntax error, unexpected '<', expecting end of file in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/index.php on line 23
+
+2022-09-29T10:11:25+00:00 CRITICAL syntax error, unexpected '<', expecting end of file in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/index.php on line 26
+
+2022-09-29T11:12:30+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/template-parts/header/header-standard.php on line 8
+
+2022-09-29T11:12:36+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in /Users/johannavega/WIE/Utveckling mot e-handel/woocommerce-grupp/wordpress/wp-content/themes/webshop/template-parts/header/header-standard.php on line 8
+
